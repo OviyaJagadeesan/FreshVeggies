@@ -1,0 +1,11 @@
+{
+    "dealoftheday": [
+      {
+        "id": 1,
+        "image": "../Images/Logo.png",
+        "deal":"Deal of the Day",
+        "offer": "50% OFF"
+      }
+    ]
+  }
+  

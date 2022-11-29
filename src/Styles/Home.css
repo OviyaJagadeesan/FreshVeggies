@@ -1,0 +1,40 @@
+.veg-div {
+    display: flex;
+    margin: 100px;
+}
+
+.veg-frame {
+    background: url("../Images/Fruits\ and\ Veg.png")0% 0% no-repeat padding-box;
+    height: 500px;
+    width: 100%;
+}
+
+.organic-veg {
+    background: url("../Images/Organic\ Vegitables.png") 0% 0% no-repeat padding-box;
+    width: 388px;
+    height: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fruit {
+    background: url("../Images/Fruitilicious.png") 0% 0% no-repeat padding-box;
+    width: 388px;
+    height: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sweet {
+    background: url("../Images/Sweetness.png") 0% 0% no-repeat padding-box;
+    width: 388px;
+    height: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

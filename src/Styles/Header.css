@@ -1,0 +1,198 @@
+.whole-home-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    background-color: gainsboro;
+}
+
+.logo {
+    height: 80px;
+    width: 42%;
+    margin-left: 5%;
+    background: url("../Images/Logo.png") 0% no-repeat;
+}
+
+.other-sec {
+    height: 80px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search {
+    height: 80px;
+    width: 19%;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-icon {
+    height: 50px;
+    width: 26px;
+    background: url("../Images/Search.png") 0% 0% no-repeat;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+.search-text {
+    margin-top: 21px;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.location {
+    height: 80px;
+    width: 24%;
+    display: flex;
+    flex-direction: row;
+}
+
+.location-icon {
+    height: 50px;
+    width: 26px;
+    background: url("../Images/Location.png") 0% no-repeat;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+.location-text {
+    margin-top: 21px;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.location-arrow {
+    margin-top: 14px;
+    height: 50px;
+    width: 26px;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 30px;
+    background: url("../Images/Profile.png") 0% 0% no-repeat;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+.notify-icon {
+    height: 50px;
+    width: 26px;
+    background: url("../Images/Notification.png")0% 0% no-repeat;
+    margin-top: 22px;
+    margin-left: 20px
+}
+
+.cart-icon {
+    height: 50px;
+    width: 28px;
+    background: url("../Images/Cart.png") 0% 0% no-repeat;
+    margin-top: 22px;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .other-sec1 {
+        height: 80px;
+        width: 14%;
+        margin-top: 7px;
+        background-color: yellow;
+        margin-left: auto;
+        background: url("../Images/hamburger.png") 0% no-repeat;
+    }
+    .search,
+    .location,
+    .profile-icon,
+    .cart-icon,
+    .notify-icon,
+    .other-sec {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.fruit {
+    background: url("../Images/Fruitilicious.png") 0% 0% no-repeat padding-box;
+    width: 388px;
+    height: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sweet {
+    background: url("../Images/Sweetness.png") 0% 0% no-repeat padding-box;
+    width: 388px;
+    height: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.veg-div {
+    display: flex;
+    margin: 100px;
+}
+.organic-veg {
+    background: url("../Images/Organic\ Vegitables.png") 0% 0% no-repeat padding-box;
+    width: 388px;
+    height: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+body {
+    background-color: rgb(236, 232, 232);
+}
+.veg-frame {
+    background: url("../Images/Fruits\ and\ Veg.png")0% 0% no-repeat padding-box;
+    height: 500px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-div{
+    display: flex;
+}
+
+.demo {
+    width: 200px;
+    height: 500px;
+    background-color: white;
+    margin-top: 55px;
+    margin-left: -50px;
+}
