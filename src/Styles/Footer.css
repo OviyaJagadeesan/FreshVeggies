@@ -1,0 +1,83 @@
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    background-color:#C0C5CB;
+}
+
+.app-logo-div{
+    display: flex;
+    flex-direction: column;
+    width: 257px;
+    height: fit-content;
+    margin: 30px;
+}
+.app-logo{
+    background: url("../Images//Logo.png") 0% 0% no-repeat padding-box;
+    height: 64px;
+    width: 134.43px;
+    background-size: cover;
+}
+
+.shop-div{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 30px 0px 0px -63px ;
+}
+
+.color-font{
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.color-font2{
+    color: #415162;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.app-download-platform{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.google-play-store{
+    background: url("../Images//Google\ Play.png")0% 0% no-repeat padding-box;
+    background-size: cover;
+    width: 132.63px;
+    height: 40px;
+}
+
+.apple-store{
+    background: url("../Images/Apple\ Store.png") 0% 0% no-repeat padding-box;
+    background-size: cover;
+    width: 133.11px;
+    height: 40px;
+}
+
+.shop-div2{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 30px 50px 0px -300px ;
+}
+.shop-div3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 30px 0px 0px -240px ;
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    /* bottom: 0px;
+    position: fixed; */
+    background-color: #415162;
+    text-align: center;
+    color:white;
+}

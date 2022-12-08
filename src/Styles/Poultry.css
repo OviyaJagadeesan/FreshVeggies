@@ -1,0 +1,258 @@
+.poultry-hen-img{
+    background: url("../Images/Poultry.png")0% 0% no-repeat padding-box;
+    margin-top: 80px;
+    height: 500px;
+}
+
+.poultry-home-div{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 1150px;
+}
+
+.poultry-left-div{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border: 1px solid gray;
+    margin: -72px 0px 0px 0px;
+}
+
+.card-body{
+    height: 250px;
+}
+
+@media screen and (max-width: 1300px) {
+    .menu-category,
+    .poultry-img,
+    .sub-category-img,
+    .eggs-img,
+    .chicken-img, 
+    .turkey-img,
+    .duck-img{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .poultry-left-div{
+        display:none !important;
+    }
+}
+
+.category-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.category-text{
+    color: #415162;
+    margin:20px 0px 0px 20px;
+}
+.menu-category{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin: 25px 0px 0px 70px;
+}
+.poultry-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.poultry-text{
+    color: #415162;
+    margin:20px 0px 0px 20px
+}
+
+.poultry-img{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 25px 0px 0px 85px;
+}
+
+.sub-category-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.sub-category-text{
+    color: #415162;
+    margin:20px 0px 0px 20px
+}
+
+.sub-category-img{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 25px 0px 0px 35px;
+}
+
+.eggs-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.eggs-text{
+    color: #415162;
+    margin:20px 0px 0px 20px
+}
+
+.eggs-img{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    height: 15px;
+    width: 15px;
+    background-size: cover;
+    margin: 25px 0px 0px 100px;
+    cursor: pointer;
+}
+
+.chicken-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.chicken-text{
+    color: #415162;
+    margin:20px 0px 0px 20px
+}
+
+.chicken-img{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    height: 15px;
+    margin: 25px 0px 0px 77px;
+    background-size: cover;
+    width: 15px;
+    cursor: pointer;
+}
+
+
+.turkey-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.turkey-text{
+    color: #415162;
+    margin:20px 0px 0px 20px
+}
+
+.turkey-img{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    height: 15px;
+    width: 15px;
+    margin: 25px 0px 0px 85px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.duck-div{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.duck-text{
+    color: #415162;
+    margin:20px 0px 0px 20px;
+}
+
+.duck-img{
+    background: url("../Images/Menu.png")0% 0% no-repeat padding-box;
+    height: 15px;
+    width: 15px;
+    margin: 25px 0px 0px 95px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.poultry-right-div{
+    display: flex;
+    flex-direction: column;
+    width: 1020px;
+    margin: -56px 0px 0px 50px;
+}
+
+.head{
+    color: #415162;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.poultry-img-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data{
+    width: 100px;
+}
+.card-style{
+    width: 20rem;
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-color:#00000029 !important;
+}
+
+.cart-button{
+    border: 1px solid #80B435;
+    text-align: center;
+    background-color: #80B435;
+    color: white;
+    border-radius: 8px;
+    width: 100%;    
+}
+
+.title-text,
+.h5{
+    color: #415162 !important;
+    font-size: 16px !important;
+    font-weight: 300px !important;
+}
+
+.farm-text{
+    color: #6B7885;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.description-text{
+    
+    font-size: 15px;
+    color: #6B7885 !important;
+}
+
+.weight-text{
+    display: flex;
+    width:fit-content;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weight{
+    color: #6B7885;
+}
+
+.notkd{
+    margin: 0px 0px 0px 20px;
+    color: #6B7885;
+    text-decoration: line-through;
+}
+
+.kd{
+    margin: 0px 0px 0px 20px;
+    color: #415162;
+}
+
